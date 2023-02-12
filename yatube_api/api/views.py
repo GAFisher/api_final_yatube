@@ -6,7 +6,7 @@ from rest_framework import mixins
 from rest_framework import filters
 from rest_framework.pagination import LimitOffsetPagination
 
-from posts.models import Group, Post, Comment, Follow, User
+from posts.models import Group, Post, Follow, User
 from .serializers import (
     GroupSerializer,
     PostSerializer,
