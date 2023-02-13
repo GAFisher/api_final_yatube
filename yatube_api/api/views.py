@@ -5,7 +5,7 @@ from rest_framework import permissions
 from rest_framework import filters
 from rest_framework.pagination import LimitOffsetPagination
 
-from posts.models import Group, Post, Follow
+from posts.models import Group, Post
 from .serializers import (
     GroupSerializer,
     PostSerializer,
