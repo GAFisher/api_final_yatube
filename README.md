@@ -5,24 +5,20 @@ Yatube - это социальная сеть для публикации сво
 
 Документация будет доступна по адресу `http://127.0.0.1:8000/redoc/` после того, как вы запустите проект. В документации описано, как должен работать ваш API. Документация представлена в формате **Redoc**.
 ### Технологии
-* Python 3.9
-* Django 3.2
-* Django REST Framework
-* Simple JWT
+* [Python 3.9](https://docs.python.org/3.9/)
+* [Django 3.2](https://docs.djangoproject.com/en/4.1/)
+* [Django REST Framework](https://www.django-rest-framework.org/)
+* [Simple JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
 
 ### Как запустить проект
 * Создайте и активируйте виртуальное окружение
 ```
 python3 -m venv env
-```
-```
 source env/bin/activate
 ```
 * Установите зависимости из файла `requirements.txt`
 ```
 python3 -m pip install --upgrade pip
-```
-```
 pip install -r requirements.txt
 ```
 * Выполните миграции:
@@ -112,3 +108,6 @@ python3 manage.py runserver
     "group": 1
 }
 ```
+### Автор
+Галина Фишер, студент когорты 18+ Яндекс.Практикум
+
