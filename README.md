@@ -14,15 +14,11 @@ Yatube - это социальная сеть для публикации сво
 * Создайте и активируйте виртуальное окружение
 ```
 python3 -m venv env
-```
-```
 source env/bin/activate
 ```
 * Установите зависимости из файла `requirements.txt`
 ```
 python3 -m pip install --upgrade pip
-```
-```
 pip install -r requirements.txt
 ```
 * Выполните миграции:
